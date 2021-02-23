@@ -3,7 +3,7 @@ title: Auth0 Guide
 permalink: /security/jwt/auth0
 category: Authentication & Authorization
 subCategory: Guides
-menuOrder: 3
+menuOrder: 1
 ---
 
 ## Introduction
