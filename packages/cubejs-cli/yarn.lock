@@ -953,19 +953,21 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@cubejs-backend/api-gateway@^0.26.11":
-  version "0.26.11"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.26.11.tgz#2a45eaea7ab7d39a867ddf370e5bb5043902cc0c"
-  integrity sha512-cl/SgeaP3qwHmKRpTuecET2AxuSUQ6Vt3GuE9lXFCpDncCED4fxYbwAjjKysLl2p5F/5j5sZJglozrfJOac5qA==
+"@cubejs-backend/api-gateway@^0.26.35":
+  version "0.26.35"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.26.35.tgz#bbb33b45c413e30e728e91e6951387d715725f86"
+  integrity sha512-AUss2LNx6qOsHvFiFhUPta3XMLgY3JNN5Ge8fGphs6ZQQXyvdASGR6ECSBIv5xi2s6SpA0bG+M0eibnwreIe3A==
   dependencies:
-    "@cubejs-backend/shared" "^0.26.11"
+    "@cubejs-backend/shared" "^0.26.35"
     "@hapi/joi" "^15.1.1"
     body-parser "^1.19.0"
     chrono-node "1.4.4"
     cron-parser "^2.16.3"
     jsonwebtoken "^8.3.0"
+    jwk-to-pem "^2.0.4"
     moment "^2.24.0"
     moment-timezone "^0.5.27"
+    node-fetch "^2.6.1"
     ramda "^0.27.0"
     uuid "^3.3.3"
 
@@ -974,10 +976,10 @@
   resolved "https://registry.yarnpkg.com/@cubejs-backend/dotenv/-/dotenv-9.0.2.tgz#c3679091b702f0fd38de120c5a63943fcdc0dcbf"
   integrity sha512-yC1juhXEjM7K97KfXubDm7WGipd4Lpxe+AT8XeTRE9meRULrKlw0wtE2E8AQkGOfTBn+P1SCkePQ/BzIbOh1VA==
 
-"@cubejs-backend/linter@^0.26.11":
-  version "0.26.11"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/linter/-/linter-0.26.11.tgz#6ebce54b92789047d5bdc72ad5af1d066a861824"
-  integrity sha512-m0Pzlsg+OkD5FyFf9HiF+fVcXtDxhLjiXndgecDxb4yoVLLfGq6R5gJvkZLZZQBDEeMkWvetcGSH+QzpcZFH4g==
+"@cubejs-backend/linter@^0.26.13":
+  version "0.26.13"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/linter/-/linter-0.26.13.tgz#e310080205ea184e246abc2627398141f4af2b8a"
+  integrity sha512-tpjsEEUfqBaP3dNjMRLQd79M4akjNm2/lOAEPslg3VK1IX/5BCIrYdgWufwwPYjlQ8X3X79CYLQAJ+85wnXHcQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.8.2"
     "@typescript-eslint/parser" "^4.8.2"
@@ -986,21 +988,21 @@
     eslint-plugin-import "^2.22.1"
     eslint-plugin-node "^9.2.0"
 
-"@cubejs-backend/query-orchestrator@^0.26.12":
-  version "0.26.12"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.26.12.tgz#81a94f0f1835fdab9365594dace507c7926d3542"
-  integrity sha512-OUpKowEBpOc227OFUcJ8KpAW9LbdqdObqZGd+TfDk104l+CfrKhYiPrL1XaFvTWwCClC5npyXMeMl6PZBwY72Q==
+"@cubejs-backend/query-orchestrator@^0.26.35":
+  version "0.26.35"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.26.35.tgz#0f68e85c1959eb59709beb37e1f69179cafa0d9b"
+  integrity sha512-fJW5qotVze8SLlvt/Ply1viVbKsbJanimGJu2HKzEfiw4Jk9DidVxhE8Bodhdlo7MT06P2E+SIh4i4JDGr4a7g==
   dependencies:
-    "@cubejs-backend/shared" "^0.26.11"
+    "@cubejs-backend/shared" "^0.26.35"
     generic-pool "^3.7.1"
     ioredis "^4.19.4"
     ramda "^0.27.0"
     redis "^3.0.2"
 
-"@cubejs-backend/schema-compiler@^0.26.11":
-  version "0.26.11"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.26.11.tgz#a4e0d8f618f62025092a976177646e0ee8ee71a2"
-  integrity sha512-wU4kxvkLASNI3FG6VIBIJ6pdIPO+JDmYuCcQErb5Ws8GDmNFgopsLxTVvytOVLBpu48v2ZZFwSNvMun0Q/dhCA==
+"@cubejs-backend/schema-compiler@^0.26.35":
+  version "0.26.35"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.26.35.tgz#8f7b996758dfa02acb151bf46b7df1ae7fef91f5"
+  integrity sha512-ZDhgKD/Eq64/0qb2JR/svndWIlPuDm9LLP6CEibWExkhGXP0zH9+fHAQaaQEIBtBqbo9TC4KTVakGbtnk86vUA==
   dependencies:
     "@babel/code-frame" "^7.12.11"
     "@babel/core" "^7.12.10"
@@ -1012,7 +1014,7 @@
     "@babel/types" "^7.12.12"
     "@hapi/joi" "^15.1.1"
     "@types/ramda" "^0.27.34"
-    antlr4 "4.8.0"
+    antlr4ts "^0.5.0-alpha.4"
     cron-parser "^2.16.3"
     humps "^2.0.1"
     inflection "^1.12.0"
@@ -1024,15 +1026,15 @@
     ramda "^0.27.0"
     syntax-error "^1.3.0"
 
-"@cubejs-backend/server-core@^0.26.12":
-  version "0.26.12"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.26.12.tgz#0fc257731f7881a79d0b04eb4291963b4f3a794e"
-  integrity sha512-Kp4/NI4RRfelDsVpdJX6Yd+WNPDvB3mAO+hnx0wOHhkqWboNSEeZSclKMdTKSNHFexjmmpm3/JImLhgBtLJiKw==
+"@cubejs-backend/server-core@^0.26.35":
+  version "0.26.35"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.26.35.tgz#8cd10eca57c513e5de33a248a2fbb106aa395aea"
+  integrity sha512-M516vluCCw8T7mWZEkKOnT+JZ9TpjnkMs584HPi0z5YtZZlbj9Ksd6wKXtw1aZ/zLw6s6q77hdVZxaQImOYIRQ==
   dependencies:
-    "@cubejs-backend/api-gateway" "^0.26.11"
-    "@cubejs-backend/query-orchestrator" "^0.26.12"
-    "@cubejs-backend/schema-compiler" "^0.26.11"
-    "@cubejs-backend/shared" "^0.26.11"
+    "@cubejs-backend/api-gateway" "^0.26.35"
+    "@cubejs-backend/query-orchestrator" "^0.26.35"
+    "@cubejs-backend/schema-compiler" "^0.26.35"
+    "@cubejs-backend/shared" "^0.26.35"
     "@hapi/joi" "^15.1.1"
     codesandbox-import-utils "^2.1.12"
     cross-spawn "^7.0.1"
@@ -1053,13 +1055,14 @@
     sqlstring "^2.3.1"
     uuid "^3.3.3"
 
-"@cubejs-backend/server@^0.26.12":
-  version "0.26.12"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/server/-/server-0.26.12.tgz#274ac4f9f3cf62ed5c5fae017fd93e19423312cb"
-  integrity sha512-lo2cZLNAGexXPmmKdQOCOswZgGeCU9wqY/OH9rrwbkUY5yupU/fm5bdNWEOVuZPsWIf5fLAkkkZRw58c9tokNg==
+"@cubejs-backend/server@^0.26.35":
+  version "0.26.35"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/server/-/server-0.26.35.tgz#b7e54ce20369816a36df7365d9475b001ca70262"
+  integrity sha512-pbo1VT2846LA+QRNBl1cBCxYLT7Rt4GCZwWqWRk6wDBwQYNHGBvL3+ryjxZhhSDO9LJFTxTkO1xCiCZ91PXO6Q==
   dependencies:
-    "@cubejs-backend/server-core" "^0.26.12"
-    "@cubejs-backend/shared" "^0.26.11"
+    "@cubejs-backend/dotenv" "^9.0.2"
+    "@cubejs-backend/server-core" "^0.26.35"
+    "@cubejs-backend/shared" "^0.26.35"
     "@oclif/color" "^0.1.2"
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
@@ -1069,17 +1072,16 @@
     body-parser "^1.19.0"
     codesandbox-import-utils "^2.1.12"
     cors "^2.8.4"
-    cubejs-dotenv "^8.3.0"
     express "^4.17.1"
     jsonwebtoken "^8.4.0"
     semver "^7.3.2"
     source-map-support "^0.5.19"
     ws "^7.1.2"
 
-"@cubejs-backend/shared@^0.26.11":
-  version "0.26.11"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/shared/-/shared-0.26.11.tgz#2bf5e8115976d88a9ab0bec31fd2602ebbc6cf92"
-  integrity sha512-/cKWRfK+WICGqTSIM98ytEO9V/Kum/OmUgj2FXpRlMHVOeh5rmlEznlkF6INGggYprTF9nOFiPdLqMCaEin59Q==
+"@cubejs-backend/shared@^0.26.35":
+  version "0.26.35"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/shared/-/shared-0.26.35.tgz#87806a385282f9e4327259924628e92cc1d95d05"
+  integrity sha512-9cKt/Z9b3mUobks/jlWyF/7xCXWOH+XuvufZuCoAE7It0tUUPnayPiZ3NhoozNl6l2oZeaiAJt1+9ddtPgieWQ==
   dependencies:
     env-var "^6.3.0"
     node-fetch "^2.6.1"
@@ -2042,10 +2044,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antlr4@4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/antlr4/-/antlr4-4.8.0.tgz#f938ec171be7fc2855cd3a533e87647185b32b6a"
-  integrity sha512-en/MxQ4OkPgGJQ3wD/muzj1uDnFSzdFIhc2+c6bHZokWkuBb6RRvFjpWhPxWLbgQvaEzldJZ0GSQpfSAaE3hqg==
+antlr4ts@^0.5.0-alpha.4:
+  version "0.5.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/antlr4ts/-/antlr4ts-0.5.0-alpha.4.tgz#71702865a87478ed0b40c0709f422cf14d51652a"
+  integrity sha512-WPQDt1B74OfPv/IMS2ekXAKkTZIHl88uMetg6q3OTqgFxZ/dxDXI0EWLyZid/1Pe6hTftyg5N7gel5wNAGxXyQ==
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -2124,6 +2126,16 @@ array.prototype.flat@^1.2.3:
     call-bind "^1.0.0"
     define-properties "^1.1.3"
     es-abstract "^1.18.0-next.1"
+
+asn1.js@^5.3.0:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/asn1.js/-/asn1.js-5.4.1.tgz#11a980b84ebb91781ce35b0fdc2ee294e3783f07"
+  integrity sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==
+  dependencies:
+    bn.js "^4.0.0"
+    inherits "^2.0.1"
+    minimalistic-assert "^1.0.0"
+    safer-buffer "^2.1.0"
 
 asn1@~0.2.3:
   version "0.2.4"
@@ -2331,6 +2343,11 @@ bluebird@^3.5.0:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
+bn.js@^4.0.0, bn.js@^4.11.9:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
+  integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
+
 body-parser@1.19.0, body-parser@^1.19.0:
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
@@ -2377,6 +2394,11 @@ braces@^3.0.1:
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   dependencies:
     fill-range "^7.0.1"
+
+brorand@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
+  integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
 browser-process-hrtime@^1.0.0:
   version "1.0.0"
@@ -2685,10 +2707,15 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.19.0, commander@^2.8.1:
+commander@^2.8.1:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+
+commander@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
+  integrity sha512-pRxBna3MJe6HKnBGsDyMv8ETbptw3axEdYHoqNh7gu5oDcew8fs0xnivZGm06Ogk8zGAJ9VX+OPEr2GXEQK4dg==
 
 compare-versions@^3.6.0:
   version "3.6.0"
@@ -2825,11 +2852,6 @@ cssstyle@^2.0.0, cssstyle@^2.2.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
-
-cubejs-dotenv@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/cubejs-dotenv/-/cubejs-dotenv-8.3.0.tgz#29d11d67077be773be40e22e93a8dba80c025c4f"
-  integrity sha512-3gm9/lMsmBOlMN2k98nYKNKLv1jaIfObI2Rk3LvGQuBXxtmeRV5j2KHx/9oFr1fZ3QsCzT2ZWVEqgfcrnPekIw==
 
 d@1, d@^1.0.1:
   version "1.0.1"
@@ -3093,6 +3115,19 @@ electron-to-chromium@^1.3.634:
   version "1.3.645"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.645.tgz#c0b269ae2ecece5aedc02dd4586397d8096affb1"
   integrity sha512-T7mYop3aDpRHIQaUYcmzmh6j9MAe560n6ukqjJMbVC6bVTau7dSpvB18bcsBPPtOSe10cKxhJFtlbEzLa0LL1g==
+
+elliptic@^6.5.3:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
+  integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
+  dependencies:
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
+    hash.js "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 emittery@^0.7.1:
   version "0.7.2"
@@ -4013,6 +4048,23 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hash.js@^1.0.0, hash.js@^1.0.3:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
+  integrity sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==
+  dependencies:
+    inherits "^2.0.3"
+    minimalistic-assert "^1.0.1"
+
+hmac-drbg@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
+  integrity sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
+  dependencies:
+    hash.js "^1.0.3"
+    minimalistic-assert "^1.0.0"
+    minimalistic-crypto-utils "^1.0.1"
+
 hosted-git-info@^2.1.4:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
@@ -4164,7 +4216,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.4, inherits@~2.0.3:
+inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -5413,6 +5465,15 @@ jwa@^1.4.1:
     ecdsa-sig-formatter "1.0.11"
     safe-buffer "^5.0.1"
 
+jwk-to-pem@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/jwk-to-pem/-/jwk-to-pem-2.0.4.tgz#774e168697a0b52054e8cfb0bcd57e0f4c398e2d"
+  integrity sha512-4CCK9UBHNWjWtfSHdyu3I6rA8vlN5cWqnVuwY0cOMyXtw6M1tP+yrM8GZpwk+P932Dc3cLag4d35B6CqyIf89A==
+  dependencies:
+    asn1.js "^5.3.0"
+    elliptic "^6.5.3"
+    safe-buffer "^5.0.1"
+
 jws@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/jws/-/jws-3.2.2.tgz#001099f3639468c9414000e99995fa52fb478304"
@@ -5720,6 +5781,16 @@ mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
+
+minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+  integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
+
+minimalistic-crypto-utils@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
+  integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
 minimatch@^3.0.4:
   version "3.0.4"
