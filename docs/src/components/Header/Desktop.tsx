@@ -4,6 +4,7 @@ import { Layout, Row, Col, Button, Icon } from 'antd';
 import logo from '../../pages/images/Logo.png';
 
 import styles from '../../../static/styles/index.module.scss';
+import { DocsSwitcher } from '../DocsSwitcher';
 
 const layout = {
   leftSidebar: {
@@ -43,15 +44,16 @@ const Header: React.FC<Props> = (props) => (
   <Layout.Header className={props.className}>
     <div className={styles.searchDimmer}></div>
     <Row>
-      <Col {...layout.leftSidebar.width}>
+      <Col {...layout.leftSidebar.width} style={{ height: 'inherit' }}>
         <div className={styles.logoWrapper}>
-          <a href="/" className={styles.logo}>
-            <img src={logo} alt="Logo" style={{ height: 36 }} />
-          </a>
-          &nbsp;
-          <a href="/docs" className={styles.logo}>
-            <span className={styles.logoDocs}>docs</span>
-          </a>
+          <DocsSwitcher />
+          {/*<a href="/" className={styles.logo}>*/}
+          {/*  <img src={logo} alt="Logo" style={{ height: 36 }} />*/}
+          {/*</a>*/}
+          {/*&nbsp;*/}
+          {/*<a href="/docs" className={styles.logo}>*/}
+          {/*  <span className={styles.logoDocs}>docs</span>*/}
+          {/*</a>*/}
         </div>
       </Col>
       <Col {...layout.contentArea.width}>{props.children}</Col>

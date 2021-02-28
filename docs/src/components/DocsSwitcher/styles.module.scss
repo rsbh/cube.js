@@ -1,0 +1,11 @@
+.docsSwitcher {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > button.ant-btn {
+    flex: 1;
+  }
+}
